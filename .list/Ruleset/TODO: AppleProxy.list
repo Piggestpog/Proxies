@@ -1,0 +1,22 @@
+# 苹果美国服务
+# > News
+DOMAIN,gspe1-ssl.ls.apple.com // 地图数据提供商 TOMTOM
+DOMAIN,gateway.icloud.com
+DOMAIN,news-assets.apple.com // Audio
+# > Books
+DOMAIN,books.itunes.apple.com // Download
+#DOMAIN,buy.itunes.apple.com // Sample
+# > TV
+DOMAIN,play-edge.itunes.apple.com // Unblock Region
+DOMAIN,tv.applemusic.com // Apple Music TV
+DOMAIN,hls-svod-aoc.itunes.apple.com,日本节点 // Apple Original Download
+DOMAIN,hls-amt.itunes.apple.com,日本节点 // Apple Rent/Buy Download
+DOMAIN,hls-svod.itunes.apple.com,日本节点 // Third-Party Channel Download
+# > iTunes Store
+DOMAIN,hls.itunes.apple.com // 部分Trailers清晰度
+
+
+# > Music
+DOMAIN,radio.itunes.apple.com // Unblock Radio Region
+DOMAIN,playerservices.streamtheworld.com
+DOMAIN-SUFFIX,live.streamtheworld.com // Radio Supplement
