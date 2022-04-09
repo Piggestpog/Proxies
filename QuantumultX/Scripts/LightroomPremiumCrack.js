@@ -3,7 +3,7 @@ Quantumult X 脚本
 Lightroom Premium Subscription Unlock (By Langkhach)
 
 [rewrite_local]
-^https:\/\/photos\.adobe\.io\/v2\/accounts* url script-response-body 
+^https:\/\/photos\.adobe\.io\/v2\/accounts* url script-response-body https://raw.githubusercontent.com/Piggestpog/Proxies/main/QuantumultX/Scripts/LightroomPremiumCrack.js
 
 [mitm]
 hostname = photos.adobe.io
