@@ -1,5 +1,4 @@
 /*
-
 Quantumult X 脚本:
 The camera of light words Unlock Annual Subscriptions （by LTribe）
 Download Link : http://t.cn/A6ZtvYIJ
