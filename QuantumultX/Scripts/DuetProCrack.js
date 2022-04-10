@@ -1,7 +1,7 @@
 /*
 Duet Display Pro Unlock (By LTribe)
 [rewrite_local]
-^https?:\/\/rdp\.duetdisplay\.com\/v\d\/users\/validateReceipt url script-response-body DuetPro.js
+^https?:\/\/rdp\.duetdisplay\.com\/v\d\/users\/validateReceipt url script-response-body https://raw.githubusercontent.com/Piggestpog/Proxies/main/QuantumultX/Scripts/DuetProCrack.js
 [mitm]
 hostname = rdp.duetdisplay.com
 */
