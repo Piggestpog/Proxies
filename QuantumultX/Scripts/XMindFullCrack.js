@@ -1,13 +1,12 @@
 /*
-Quantumult X 脚本:
 Xmind Unlock annual subscriptions （by LTribe）
-Xmind Download Link : http://t.cn/A6zhp3Bm
+Download Link : http://t.cn/A6zhp3Bm
 Thanks To@xiaozhuolao's membership data.
+
 [rewrite_local]
-# Xmind Unlock annual subscriptions （by LTribe）
-https?:\/\/.*\.xmind\..*\/_res\/devices url script-response-body XMind.js
+https?:\/\/.*\.xmind\..*\/_res\/devices url script-response-body https://raw.githubusercontent.com/Piggestpog/Proxies/main/QuantumultX/Scripts/XMindFullCrack.js
 [mitm]
-hostname = *.xmind.*,
+hostname = *.xmind.*
 */
 
 let obj = JSON.parse($response.body);
@@ -24,4 +23,4 @@ obj = {
 $done({body: JSON.stringify(obj)});
 
 // Updated 20200715
-// 仅供个人参考学习交流，勿用于其它...
+// 仅供个人参考学习交流，勿用于其它
