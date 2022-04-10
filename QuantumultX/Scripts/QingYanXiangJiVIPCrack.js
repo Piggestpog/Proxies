@@ -1,15 +1,11 @@
 /*
-Quantumult X 脚本:
-The camera of light words Unlock Annual Subscriptions （by LTribe）
+The camera of light words Unlock Annual Subscriptions （By LTribe）
 Download Link : http://t.cn/A6ZtvYIJ
 
 [rewrite_local]
-# 轻言相机解锁年订阅 （by LTribe）
-^https?:\/\/commerce-api\.faceu\.mobi\/commerce\/.*\/subscription\/user_info* url script-response-body qingyanxiangji.js
-
+^https?:\/\/commerce-api\.faceu\.mobi\/commerce\/.*\/subscription\/user_info* url script-response-body https://raw.githubusercontent.com/Piggestpog/Proxies/main/QuantumultX/Scripts/QingYanXiangJiVIPCrack.js
 [mitm]
-hostname = commerce-api.faceu.mobi,
-
+hostname = commerce-api.faceu.mobi
 */
 
 let obj = JSON.parse($response.body);
