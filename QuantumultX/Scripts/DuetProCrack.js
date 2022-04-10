@@ -1,10 +1,9 @@
 /*
-Quantumult X 脚本:
+Duet Display Pro Unlock (By LTribe)
 [rewrite_local]
-# Duet Display Unlock Pro （by LTribe）
 ^https?:\/\/rdp\.duetdisplay\.com\/v\d\/users\/validateReceipt url script-response-body DuetPro.js
 [mitm]
-hostname = rdp.duetdisplay.com,
+hostname = rdp.duetdisplay.com
 */
 
 let obj = JSON.parse($response.body);
