@@ -1,13 +1,10 @@
 /*
-Quantumult X 脚本
 Polarr泼辣修图 Subscription Unlock (By NobyDa)
 
 [rewrite_local]
 ^https:\/\/api\.polaxiong\.com\/v1\/payments\/appleiap\/receipts\/confirmation url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Polarr.js
-
 [mitm]
 hostname = api.polaxiong.com
-
 */
 
 const sta = typeof $task !== "undefined" ? "HTTP/1.1 200 OK" : 200;
