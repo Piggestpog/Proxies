@@ -6,21 +6,6 @@
   "repo": "https://github.com/Piggestpog/Proxies/tree/main/QuantumultX",
   "apps": [
     {
-    "id": "52poje",
-    "name": "吾爱破解",
-    "keys": ["CookieWA"],
-    "descs_html": [
-      "<h4 align=\"center\">获取Cookie以及脚本配置请查看<a href=\"https://raw.githubusercontent.com/NobyDa/Script/master/52pojie-DailyBonus/52pojie.js\">脚本注释</a></h4>"
-    ],
-    "script": "https://raw.githubusercontent.com/NobyDa/Script/master/52pojie-DailyBonus/52pojie.js",
-    "author": "@NobyDa",
-    "repo": "https://github.com/NobyDa/Script/tree/master/52pojie-DailyBonus",
-    "icons": [
-      "https://raw.githubusercontent.com/NobyDa/mini/master/Alpha/52pj.png", 
-      "https://raw.githubusercontent.com/NobyDa/mini/master/Color/52pj.png"
-    ]
-    },
-    {
       "id": "checkincookie",
       "name": "机场Cookie签到",
       "descs_html": [
