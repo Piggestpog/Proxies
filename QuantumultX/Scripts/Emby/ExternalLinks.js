@@ -1,6 +1,7 @@
 /*
   Customized Emby external links. Invoking third-party players including Infuse, NPlayer, VLC, IINA and Movist Pro & Shu download.
   Fake static resources path.
+  Originally released on https://github.com/rartv/EmbyPublic/tree/test/quantumult-x
 */
 
 let requestURL = $request.url;
