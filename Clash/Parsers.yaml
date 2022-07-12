@@ -1,0 +1,15 @@
+# 自行填空
+parsers:
+  - url: 
+    yaml:
+      prepend-proxies:
+        - name: 解锁节点
+          type: http
+          server: 192.168.50.1
+          port: 8080
+        - name: sweetHome
+          type: ss
+          server: 
+          port: 1919
+          cipher: aes-128-gcm
+          password: 
