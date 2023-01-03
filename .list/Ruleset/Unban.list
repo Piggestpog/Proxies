@@ -1,7 +1,6 @@
 # Unbreak 主要用于修正后续规则中 REJECT 及 PROXY 策略的一些不正确情况
-# https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/UnBan.list
 
-# 广告拦截&应用净化中 错误REJECT
+# 广告拦截中 错误REJECT
 # > Getui
 DOMAIN-SUFFIX,dizhensubao.getui.com
 # > Google
@@ -10,5 +9,7 @@ DOMAIN-SUFFIX,googletraveladservices.com
 DOMAIN,fairplay.l.qq.com
 DOMAIN,livew.l.qq.com
 DOMAIN,vd.l.qq.com
+DOMAIN,vi.l.qq.com
 # > Umeng
+DOMAIN,errlog.umeng.com
 DOMAIN,msg.umeng.com
